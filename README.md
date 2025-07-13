@@ -1,1 +1,0 @@
-# codsach-resources
