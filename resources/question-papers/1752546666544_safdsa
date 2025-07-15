@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class BitwiseOperations {
+    public static void main(String[] args) {
+        // Initializing two values
+        int a = 0b00101010 ;
+        int b = 0b00001111; 
+
+        System.out.println("Value of a = " + a + " (Binary: " + Integer.toBinaryString(a) + ")");
+        System.out.println("Value of b = " + b + " (Binary: " + Integer.toBinaryString(b) + ")");
+        System.out.println();
+
+        // Bitwise AND
+        int andResult = a & b;
+        System.out.println("a & b = " + andResult + " (Binary: " + Integer.toBinaryString(andResult) + ")");
+
+        // Bitwise OR
+        int orResult = a | b;
+        System.out.println("a | b = " + orResult + " (Binary: " + Integer.toBinaryString(orResult) + ")");
+
+        // Bitwise XOR
+        int xorResult = a ^ b;
+        System.out.println("a ^ b = " + xorResult + " (Binary: " + Integer.toBinaryString(xorResult) + ")");
+
+        // Bitwise NOT
+        int notA = ~a;
+        System.out.println("~a = " + notA + " (Binary: " + Integer.toBinaryString(notA) + ")");
+
+        // Left Shift
+        int leftShift = a << 1;
+        System.out.println("a << 1 = " + leftShift + " (Binary: " + Integer.toBinaryString(leftShift) + ")");
+
+        // Right Shift
+        int rightShift = a >> 1;
+        System.out.println("a >> 1 = " + rightShift + " (Binary: " + Integer.toBinaryString(rightShift) + ")");
+    }
+}
