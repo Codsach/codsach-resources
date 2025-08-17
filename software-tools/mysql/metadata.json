@@ -1,0 +1,12 @@
+{
+  "title": "MySQL",
+  "description": "Windows (x86, 32-bit), MSI Installer",
+  "subject": "",
+  "semester": "2",
+  "tags": [
+    "software-tools",
+    "Mysql"
+  ],
+  "keywords": [],
+  "downloadUrl": "https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.43.0.msi"
+}
