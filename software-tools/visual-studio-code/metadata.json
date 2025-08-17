@@ -1,0 +1,12 @@
+{
+  "title": "Visual Studio Code",
+  "description": "Download Visual Studio Code Free and built on open source. Integrated Git, debugging and extensions.",
+  "subject": "",
+  "semester": "1",
+  "tags": [
+    "software-tools",
+    "vs code"
+  ],
+  "keywords": [],
+  "downloadUrl": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+}
